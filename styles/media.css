@@ -1,0 +1,237 @@
+@media (max-width: 590px) {
+
+    .blue .topnav .top,
+    .top-1 {
+        display: none;
+    }
+
+    .topnav .social-icons {
+        padding: 0;
+    }
+
+    .nav-bar {
+        margin: 0 -18px;
+    }
+
+    .nav-bar .nav-right .search1 {
+        display: none;
+    }
+
+    .nav-items {
+        flex-direction: column;
+    }
+
+    .nav-items .items {
+        padding: 5px !important;
+        font-size: 12px;
+    }
+
+    .body1 .body1-h4 {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .body1 .box {
+        flex-direction: column;
+    }
+
+    .box .box-content {
+        width: 80%;
+        margin: 10px;
+        margin-left: 15px;
+    }
+
+    .box .box-content h6 {
+        font-size: 14px;
+    }
+
+    .box .header-content h6 {
+        font-size: 12px;
+    }
+
+    .body2 .left-content {
+        display: none;
+    }
+
+    .body2 .right-content {
+        width: 100%;
+    }
+
+    .body2 .right-content p {
+        font-size: 12px;
+    }
+
+    .body2 .agileimg {
+        object-fit: contain;
+        height: 180px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .right-content h5 {
+        font-size: 16px;
+    }
+
+    .right-content .agile-list h6 {
+        font-size: 14px;
+    }
+
+    .fre-body .left-frequent {
+        display: none;
+    }
+
+    .fre-body .right-frequent {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .question-head {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .accordian-h h5 {
+        font-size: 14px;
+    }
+
+    .accordian-h .accordion-button {
+        font-size: 12px !important;
+        padding: 15px 10px;
+    }
+
+    .right-frequent .accor-clas {
+        padding: 0 !important;
+    }
+
+    .baccordian {
+        margin: 0 10px !important;
+        width: 93% !important;
+    }
+
+    .footer .banner-img {
+        flex-direction: column;
+        padding: 30px 0;
+        width: 100%;
+    }
+
+    .footer .banner-img h4 {
+        font-size: 16px;
+        width: 90%;
+        display: block;
+        text-align: center;
+    }
+
+    .banner-img button {
+        margin: 10px auto;
+        display: block;
+        font-size: 12px;
+    }
+
+    .blog-footer {
+        flex-wrap: wrap;
+        padding: 120px 20px 30px;
+    }
+
+    .blog-footer .skill-dot {
+        width: 50%;
+    }
+
+    .skill-dot h5 {
+        font-size: 20px;
+    }
+
+    .skill-dot p {
+        font-size: 14px;
+    }
+
+    .blog-footer .information {
+        width: 50%;
+    }
+
+    .information h6 {
+        font-size: 16px;
+    }
+
+    .information ul {
+        line-height: 15px;
+    }
+
+    .information ul li {
+        font-size: 13px;
+    }
+
+
+    .top-course {
+        display: none;
+    }
+
+
+    .blog-footer .signup {
+        width: 100%;
+        margin-top: 10px;
+
+    }
+    .blog-footer .signup h6{
+        font-size: 16px;
+    }
+    .blog-footer .signup p{
+        font-size: 13px;
+    }
+    .signup .e-mail::placeholder{
+        font-size: 13px;
+    }
+    .signup .subscribe{
+        font-size: 13px;
+    }
+    .bottom-footer p{
+        font-size: 14px;
+    }
+    .nav-bar .logo{
+        font-size: 20px;
+    }
+    .nav-right .categoty-bt{
+        font-size: 14px;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 590px) and (max-width:780px) {
+.topnav .top .top-1{
+    font-size: 14px;
+}
+.nav-bar .logo{
+    font-size: 22px;
+}
+.nav-right .categoty-bt{
+    font-size: 14px;
+}
+.nav-right .search1{
+    font-size: 14px;
+}
+.nav-bar1 .nav-items .items{
+    font-size: 14px;
+}
+.body1 .body1-h4{
+    font-size: 25px;
+}
+.body1 .box{
+    flex-wrap: wrap;
+}
+.body1 .box .box-content{
+    width: 45%;
+    margin-bottom: 10px;
+}
+.box-content .header-content h6{
+    font-size: 12px;
+}
+.box-content .name{
+    font-size: 14px;
+}
+.body2 .left-content .recent-post h6{
+font-size: 15px;
+}
+.recent-post ul li{
+    font-size: 13px;
+}
+
+}

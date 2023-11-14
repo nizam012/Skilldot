@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  font-family: 'Poppins';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.blue {
+  width: 100%;
+  background-color: rgba(17, 74, 150, 1);
+}
+
+.top-1 {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.topnav {
+  background-color: rgba(15, 34, 57, 1);
+  width: 85%;
+  border-bottom-right-radius: 90px;
+}
+
+.top-icons {
+  color: white;
+  margin: 15px;
+}
+
+.social-icons {
+  padding-right: 30px;
+}
+
+.categoty-bt {
+  border-radius: 5px;
+  border: 1px solid rgba(17, 74, 150, 1);
+  color: rgba(17, 74, 150, 1);
+  font-size: 16px;
+  background-color: transparent;
+  padding: 0 15px;
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.search1 {
+  border: none;
+  background-color: rgba(245, 247, 251, 1);
+  border-radius: 6px;
+}
+
+.search1::placeholder {
+  font-size: 14px;
+}
+
+.nav-bar {
+  padding: 0.8rem;
+}
+
+.logo {
+  font-size: 26px;
+  color: rgba(17, 74, 150, 1);
+  font-weight: 700;
+}
+
+.logo p {
+  margin-bottom: 0 !important;
+}
+
+.nav-bar1 {
+  background-color: rgba(17, 74, 150, 1);
+  width: 100%;
+}
+
+.nav-bar1 .nav-items {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.nav-items .items {
+  margin-right: 20px;
+  color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.nav-items {
+  padding: 0 !important;
+
+}
+
+.box-content {
+  width: 22%;
+  border: 1px;
+  border-radius: 6px;
+}
+
+.box {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.body1-h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  padding: 80px 0;
+}
+
+.body1 {
+  margin-top: 0;
+  background-color: rgba(132, 194, 255, 1);
+  height: fit-content;
+}
+
+.box-content {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 10px 16px;
+  white-space: nowrap;
+}
+
+.header-content {
+  margin-bottom: 10px;
+}
+
+.header-content h6 {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 550;
+  columns: rgba(0, 0, 0, 1);
+}
+
+.left-content {
+  width: 30%;
+}
+
+.right-content {
+  width: 70%;
+}
+
+.right-content p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.agileimg {
+  width: 90%;
+}
+
+.recent-post {
+  position: sticky;
+  top: 0;
+  height: fit-content;
+  background-color: rgba(245, 247, 251, 1);
+  padding: 20px;
+}
+
+.recent-post h6 {
+  font-size: 16px;
+}
+
+.recent-post ul {
+  padding-left: 1rem !important;
+  /* list-style: none; */
+}
+
+.recent-list a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+.recent-post ul li {
+  font-size: 14px;
+  padding: 8px 0;
+  list-style-image: url(../public/Images/Vector.png);
+}
+
+/* #arrow {
+  border-right:2px solid black;
+  border-bottom:2px solid black;
+  width:10px;
+  height:10px;
+  transform: rotate(-45deg);
+  margin-top:40px;
+}
+
+
+
+.recent-post ul li {
+position: relative;
+padding-bottom: 10px;
+}
+
+.recent-post ul {
+list-style: none;
+}
+
+.recent-post ul li:before{
+ content: '';
+ position: absolute;
+ border-right:2px solid black;
+ border-bottom:2px solid black;
+ width:10px;
+ height:10px;
+ top: calc(50% - 4px);
+ left: -20px;
+ transform: translateY(-50%) rotate(-45deg);
+} */
+
+.form {
+  border: 1px solid rgba(17, 74, 150, 1);
+  margin-top: 30px;
+  position: sticky;
+  top: 320px;
+  padding: 15px 0;
+  background-color: white;
+  z-index: -1;
+  padding-left: 25px;
+  width: fit-content;
+  border-radius: 6px;
+
+}
+
+.form legend {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 450;
+}
+
+.form input,
+textarea {
+  margin: 10px 0;
+  border: 1px solid rgb(158, 156, 156);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.form input,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.form p {
+  font-size: 12px;
+  margin-top: -29px;
+  margin-left: 25px;
+  width: 75%;
+  margin-bottom: 0;
+}
+
+.form #id {
+  margin-left: 10px;
+}
+
+.submit-btn {
+  border: none;
+  padding: 8px 80px;
+  margin: 1px auto;
+  font-size: 14px;
+  display: block;
+  border-radius: 5px;
+  background-color: rgba(17, 74, 150, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.left-frequent {
+  width: 30%;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  border: 1px solid rgba(17, 74, 150, 1);
+  margin-right: 10px;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+.right-frequent {
+  width: 70%;
+  border: 1px solid rgba(17, 74, 150, 1);
+  border-radius: 10px;
+
+
+}
+
+.frequent-items h6 {
+  font-size: 16px;
+}
+
+.frequent-items ul li {
+  font-size: 14px;
+  padding: 8px 0;
+  list-style-image: url(../public/Images/Vector.png);
+
+}
+
+.question-btn {
+  border: none;
+  padding: 8px 10px;
+  margin: 1px auto;
+  white-space: nowrap;
+  font-size: 14px;
+  display: block;
+  border-radius: 5px;
+  background-color: rgba(17, 74, 150, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+.question-head {
+  color: rgba(17, 74, 150, 1);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.hr1 {
+  /* border-bottom: 1px solid; */
+  /* border: 1px solid rgba(17, 74, 150, 1); */
+  /* width: 80%; */
+  color: rgba(17, 74, 150, 1);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.accordian-h {
+  width: 100%;
+}
+
+.accordian-h h5 {
+  font-size: 16px;
+  color: rgba(17, 74, 150, 1);
+  margin-left: 15px;
+}
+
+.accordion-button {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+
+}
+
+.accordion-body {
+  font-size: 14px !important;
+  font-weight: 400;
+
+}
+
+.baccordian {
+  border: 1px solid rgba(17, 74, 150, 1);
+  border-radius: 8px;
+  padding: 15px;
+}
+
+.banner-img {
+  background-image: url(../public/Images/banner.png);
+  height: 194px;
+  width: 85%;
+  margin: 10px 0;
+  padding: 35px 48px;
+  position: absolute;
+  background-repeat: no-repeat;
+  z-index: 1;
+  align-items: center;
+  top: -6.5rem;
+}
+
+.footer {
+  position: relative;
+}
+
+.banner-img h4 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 30px;
+  width: 40%;
+  font-weight: 400;
+}
+
+.banner-img button {
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 1);
+  color: black;
+  margin-right: 190px;
+  font-size: 14px;
+  /* width: fit-content; */
+  padding: 12px 35px;
+}
+
+.blog-footer {
+  border-top: 2px solid rgba(17, 74, 150, 1);
+  position: relative;
+  width: 100%;
+  top: 10;
+  background-color: rgba(245, 245, 245, 1);
+  padding: 150px 80px 70px;
+
+  margin-top: 140px;
+}
+
+.skill-dot {
+  width: 15%;
+}
+
+.information {
+  width: 15%;
+}
+
+.information ul {
+  padding-left: 0 !important;
+
+}
+
+.information ul li {
+  list-style: none;
+  color: rgba(51, 63, 89, 1);
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.information h6 {
+  margin-bottom: 20px;
+}
+
+.information ul a {
+  text-decoration: none;
+}
+
+.top-course {
+  width: 15%;
+}
+
+.skill-dot h5 {
+  color: rgba(17, 74, 150, 1);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.skill-dot p {
+  font-size: 14px;
+  color: rgba(51, 63, 89, 1);
+}
+
+.fb-icon {
+  color: rgba(17, 74, 150, 1);
+  margin: 5px;
+}
+
+.yt-icon {
+  color: rgba(210, 23, 63, 1);
+  margin: 5px;
+
+}
+
+.x-icon {
+  margin: 5px;
+
+}
+
+
+.top-course ul {
+  padding-left: 0;
+}
+
+.top-course ul a {
+  text-decoration: none;
+}
+
+.top-course ul li {
+  list-style: none;
+  color: rgba(51, 63, 89, 1);
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.top-course h6 {
+  margin-bottom: 20px;
+}
+
+.signup {
+  width: 30%;
+}
+
+.signup h6 {
+  margin-bottom: 20px;
+
+}
+
+.signup p {
+  color: rgba(51, 63, 89, 1);
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.signup .e-mail {
+  background-color: rgba(255, 255, 255, 1);
+  font-size: 14px;
+  padding: 10px 0 10px 20px;
+  width: 60%;
+  border: none;
+  position: relative;
+  color: rgba(148, 157, 177, 1);
+}
+
+.subscribe {
+  padding: 10px 12px 10px 20px;
+  border: none;
+  position: absolute;
+  font-size: 14px;
+  background-color: rgba(17, 74, 150, 1);
+  color: white;
+
+}
+
+.bottom-footer {
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(245, 245, 245, 1);
+  border-top: 1px solid rgb(105, 105, 105);
+}
+
+.bottom-footer p {
+  font-size: 16px;
+}
+
+.bottom-footer span {
+  color: rgba(17, 74, 150, 1);
+}
