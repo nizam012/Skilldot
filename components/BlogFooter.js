@@ -5,12 +5,12 @@ import { FaXTwitter } from 'react-icons/fa6'
 function BlogFooter() {
     return (
         <div className='footer'>
-            <div className="container p-0 ">
+            {/* <div className="container p-0 ">
                 <div className="banner-img d-flex justify-content-between ">
                     <h4>Wmollitia reprehenderit.  Eos cumque?</h4>
                     <button>Start now</button>
                 </div>
-            </div>
+            </div> */}
             <div className="blog-footer d-flex justify-content-around">
                 <div className="skill-dot">
                     <h5>Skilldots</h5>
