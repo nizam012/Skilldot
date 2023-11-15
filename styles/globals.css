@@ -224,7 +224,7 @@ list-style: none;
   margin-top: 30px;
   position: sticky;
   top: 320px;
-  padding: 15px 0;
+  padding: 15px 10px;
   background-color: white;
   z-index: -1;
   padding-left: 25px;
