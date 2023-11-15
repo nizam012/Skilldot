@@ -6,6 +6,7 @@ import Blogcontent from "@/components/Blogcontent"
 import Frequent from "@/components/Frequent"
 import Blogaccordian from "@/components/Blogaccordian"
 import BlogFooter from "@/components/BlogFooter"
+import Form from "@/components/Form"
 export default function Home() {
   return (
     <>
@@ -15,6 +16,7 @@ export default function Home() {
       <Blogbody />
       <Blogcontent />
       <Frequent />
+      <Form />
       <Blogaccordian />
       <BlogFooter />
     </>

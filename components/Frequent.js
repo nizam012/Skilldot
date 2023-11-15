@@ -21,7 +21,8 @@ function Frequent() {
                             <div type='button' onClick={() => scroll('fifth')}><li className="recent-items">UI/UX Deisgn</li></div>
                             <div type='button' onClick={() => scroll('six')}><li className="recent-items">Web Development</li></div>
                         </ul>
-                        <button className='question-btn' >Have more questions!</button>
+                        <button className='question-btn' data-bs-toggle="modal" data-bs-target="#exampleModal"  >Have more questions!</button>
+
                     </div>
                 </div>
                 <div className="right-frequent">
@@ -243,6 +244,8 @@ function Frequent() {
                                 </div>
                             </div>
                         </div>
+                        <hr className='hr1' />
+                        <button className='question-btn mb-3 ' data-bs-toggle="modal" data-bs-target="#exampleModal"  >Have more questions!</button>
                     </div>
                 </div>
             </div>

@@ -535,3 +535,52 @@ textarea::placeholder {
 .bottom-footer span {
   color: rgba(17, 74, 150, 1);
 }
+
+.form-popup {
+  padding: 10px;
+}
+
+.form-popup {
+  background-color: white;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.modal-title {
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+  font-weight: 450;
+}
+
+.form-popup input,
+textarea {
+  margin: 10px 0;
+  border: 1px solid rgb(158, 156, 156);
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+}
+.modal-content{
+  width: 80% !important;
+}
+
+.form-popup input,
+textarea::placeholder {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.form-popup p {
+  font-size: 12px;
+  margin-top: -29px;
+  margin-left: 25px;
+  width: 75%;
+  margin-bottom: 0;
+}
+.form-popup #check{
+  margin-left: -165px;
+}
+.form-popup #id {
+  margin-left: 10px;
+}

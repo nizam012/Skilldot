@@ -17,15 +17,15 @@ function Blogcontent() {
                             <a href="#"><li className="recent-items">Web Development</li></a>
                         </ul>
                     </div>
-                    <div className="form">
-                        <legend>Talk to Learning Advisor</legend>
-                        <input type="text" name="name" id="name" placeholder='Name' required />
-                        <input type="number" name="number" id="number" placeholder='Phone' required />
-                        <input type="email" name="email" id="email" placeholder='E-mail' required />
-                        <textarea name="msg" id="msg" cols="13" rows="5" placeholder='Message' required ></textarea><br />
-                        <input type="checkbox" name="check" id="check" required/> <p> I want to receive updates directly on WhatsApp </p><br />
-                        <button className='submit-btn' >Submit</button>
-                    </div>
+                        <div className="form">
+                            <legend>Talk to Learning Advisor</legend>
+                            <input type="text" name="name" id="name" placeholder='Name' required />
+                            <input type="number" name="number" id="number" placeholder='Phone' required />
+                            <input type="email" name="email" id="email" placeholder='E-mail' required />
+                            <textarea name="msg" id="msg" cols="13" rows="5" placeholder='Message' required ></textarea><br />
+                            <input type="checkbox" name="check" id="check" required /> <p> I want to receive updates directly on WhatsApp </p><br />
+                            <button className='submit-btn' >Submit</button>
+                        </div>
                 </div>
                 <div className="right-content" >
                     <p>In the constantly evolving realm of environmental sustainability and conservation, environmental engineering emerges as a discipline at the forefront of tackling worldwide challenges. As we step into the year 2023, the need for environmental engineers keeps expanding, presenting a vast range of career possibilities. Whether you have recently completed your studies or are contemplating pursuing a degree in environmental engineering, this article will serve as a comprehensive guide, leading you through the varied and promising realm of career in environmental engineering. Furthermore, we will explore how incorporating Java programming and Digital Marketing courses into your education can synergize with your career objectives in this dynamic field, thereby amplifying your professional prospects.</p>
