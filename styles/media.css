@@ -12,6 +12,9 @@
     .nav-bar {
         margin: 0 -18px;
     }
+    .nav-bar1{
+        display: none;
+    }
 
     .nav-bar .nav-right .search1 {
         display: none;
@@ -233,5 +236,54 @@ font-size: 15px;
 .recent-post ul li{
     font-size: 13px;
 }
+.body2 .container{
+    padding: 0 !important;
+}
+.left-content .recent-post{
+    width: 100%;
+}
+.left-content .form{
+    display: none;
+}
+/* .form legend{
+    font-size: 14px;
+}
+.form .submit-btn{
+    padding: 8px 60px;
+    margin-left: -10px;
+} */
+.right-content .agileimg{
+    margin: 0 auto;
+    display: block;
+    object-fit: contain;
+}
+.right-content h5{
+    font-size: 18px;
+}
+.frequent-items h6{
+    font-size: 15px;
+}
+.recent-list .recent-items{
+    font-size: 13px;
+}
+.recent-list .question-btn{
+    font-size: 13px;
+}
+.footer .banner-img{
+    width: 94%;
+}
+.banner-img h4{
+    font-size: 18px;
+}
+.banner-img button{
+    margin-right: 0px;
+}
+.blog-footer{
+    padding: 150px 20px 70px;
+}
+.skill-dot h5{
+    font-size: 18px;
+}
+
 
 }
